@@ -1,0 +1,87 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- White Background Circle for Contrast -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,120m-115,0a115,115 0,1 1,230 0a115,115 0,1 1,-230 0" />
+
+    <!-- 1. Cathedral Spire & Towers (Top Silhouette) -->
+    <!-- Center Tower / Spire -->
+    <path
+        android:fillColor="#139C72"
+        android:pathData="M116,40h8v24h-8z" />
+    <path
+        android:fillColor="#139C72"
+        android:pathData="M114,40l6,-18l6,18z" />
+    <path
+        android:fillColor="#1FBE8F"
+        android:pathData="M111,64h18v10h-18z" />
+    <path
+        android:fillColor="#139C72"
+        android:pathData="M116,68h8v6h-8z" />
+
+    <!-- Left Tower/Dome -->
+    <path
+        android:fillColor="#0B5D65"
+        android:pathData="M90,56h12v18h-12z" />
+    <path
+        android:fillColor="#0B5D65"
+        android:pathData="M90,56c0,-6 12,-6 12,0z" />
+
+    <!-- Right Tower/Dome -->
+    <path
+        android:fillColor="#0B5D65"
+        android:pathData="M138,56h12v18h-12z" />
+    <path
+        android:fillColor="#0B5D65"
+        android:pathData="M138,56c0,-6 12,-6 12,0z" />
+
+    <!-- 2. Continuous Loop Heart Shape -->
+    <!-- Left Loop of Heart (Teal) -->
+    <path
+        android:strokeWidth="12"
+        android:strokeColor="#0B5D65"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M120,135 C100,105 60,105 65,130 C70,155 100,175 120,185" />
+
+    <!-- Right Loop of Heart (Green-Lime) -->
+    <path
+        android:strokeWidth="12"
+        android:strokeColor="#139C72"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M120,135 C140,105 180,105 175,130 C170,155 140,175 120,185" />
+
+    <!-- 3. Stylized Hands and Item Inside the Heart -->
+    <!-- Hand 1 (Top Left reaching down-right, Teal) -->
+    <path
+        android:fillColor="#0B5D65"
+        android:pathData="M78,135c3,-3 12,-5 18,-2c4,2 14,8 14,8s-6,2 -10,0c-4,-2 -12,-5 -18,-2s-6,2 -4,-4" />
+
+    <!-- Hand 2 (Bottom Right reaching up-left, Green) -->
+    <path
+        android:fillColor="#139C72"
+        android:pathData="M162,145c-3,3 -12,5 -18,2c-4,-2 -14,-8 -14,-8s6,-2 10,0c4,2 12,5 18,2s6,-2 4,4" />
+
+    <!-- Golden Box / Exchange Item in Center -->
+    <path
+        android:fillColor="#FFFFB3"
+        android:pathData="M115,136l10,-6l10,6l-10,6z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M115,136v8l10,6v-8z" />
+    <path
+        android:fillColor="#E69900"
+        android:pathData="M125,142v8l10,-6v-8z" />
+
+    <!-- 4. Location Pin in the background of SCZ -->
+    <path
+        android:fillColor="#139C72"
+        android:pathData="M110,215c-4,-6 -10,-12 -10,-16c0,-5 4,-9 10,-9s10,4 10,9c0,4 -6,10 -10,16zm0,-13c2,0 3,-1 3,-3s-1,-3 -3,-3s-3,1 -3,3s1,3,3,3z" />
+
+</vector>

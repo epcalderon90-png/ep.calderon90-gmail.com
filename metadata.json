@@ -1,0 +1,6 @@
+{
+  "name": "Pasalo SCZ",
+  "description": "Intercambio gratuito de objetos entre vecinos locales en Santa Cruz de la Sierra con verificación de confianza.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
